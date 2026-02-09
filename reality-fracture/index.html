@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things - The Final Gate | Movie Trailer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600;700&family=Special+Elite&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Audio for ambient sound -->
+    <audio id="ambient-sound" loop>
+        <source src="https://assets.mixkit.co/active_storage/sfx/2833/2833-preview.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">STRANGER THINGS</div>
+            <div class="loading-subtitle">THE FINAL GATE</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-text">Loading the Upside Down...</p>
+        </div>
+        <div class="loading-particles"></div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="trailer-container" id="trailer">
+        <!-- Particle Effects Background -->
+        <div class="particle-container" id="particles"></div>
+
+        <!-- Background Flicker Effect -->
+        <div class="bg-flicker" id="bg-flicker"></div>
+
+        <!-- Static Noise Overlay -->
+        <div class="static-overlay"></div>
+
+        <!-- Vignette Effect -->
+        <div class="vignette-overlay"></div>
+
+        <!-- Lightning Effects -->
+        <div class="lightning-container" id="lightning"></div>
+
+        <!-- Scene 0: Netflix Intro -->
+        <section class="scene netflix-intro" data-scene="0">
+            <div class="netflix-wrapper">
+                <div class="netflix-logo">
+                    <span class="netflix-n">N</span>
+                    <span class="netflix-text">ETFLIX</span>
+                </div>
+                <p class="netflix-tagline">A NETFLIX ORIGINAL SERIES</p>
+            </div>
+        </section>
+
+        <!-- Scene 1: Title Reveal -->
+        <section class="scene title-scene" data-scene="1">
+            <div class="title-wrapper">
+                <div class="title-glow"></div>
+                <h1 class="stranger-title">STRANGER<br>THINGS</h1>
+                <div class="title-line"></div>
+                <h2 class="subtitle">THE FINAL GATE</h2>
+            </div>
+        </section>
+
+        <!-- Scene 2: Story Card - The Beginning -->
+        <section class="scene story-scene full-card-scene" data-scene="2">
+            <div class="full-image-wrapper">
+                <img src="assets/stranger-card.jpg" alt="Stranger Things Story Card" class="full-scene-image">
+                <div class="image-vignette"></div>
+                <div class="card-overlay-text">
+                    <p class="scene-caption fade-up">In the depths of the Upside Down, Vecna prepared to open the final
+                        gate.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scene 3: The First Gate - 1983 -->
+        <section class="scene story-scene text-overlay-scene" data-scene="3">
+            <div class="full-image-wrapper dark-bg">
+                <img src="assets/stranger-card.jpg" alt="1983 Story" class="full-scene-image zoom-effect">
+                <div class="image-vignette dark"></div>
+                <div class="centered-text-block">
+                    <p class="dramatic-text line-1">First gate was opened</p>
+                    <p class="dramatic-text line-2 highlight">in a scream</p>
+                    <p class="dramatic-text line-3">1983</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scene 4: Vecna Portal Epic Scene -->
+        <section class="scene story-scene epic-portal-scene" data-scene="4">
+            <div class="full-image-wrapper">
+                <img src="assets/vecna-portal.jpg" alt="Vecna emerging from portal"
+                    class="full-scene-image parallax-image">
+                <div class="portal-overlay">
+                    <div class="portal-glow-ring"></div>
+                    <div class="portal-glow-ring delay-1"></div>
+                    <div class="portal-glow-ring delay-2"></div>
+                </div>
+                <div class="vecna-text-overlay">
+                    <p class="vecna-quote typewriter">"Every ending... has a beginning."</p>
+                    <p class="vecna-name">— VECNA</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scene 5: The Static Voice -->
+        <section class="scene story-scene radio-scene" data-scene="5">
+            <div class="radio-wrapper">
+                <div class="radio-static-bg"></div>
+                <div class="radio-text-content">
+                    <p class="radio-line line-1">If you hear the voice in static...</p>
+                    <p class="radio-line line-2">would you believe it's a friend</p>
+                    <p class="radio-line line-3">or just the wind?</p>
+                </div>
+                <div class="radio-wave">
+                    <svg viewBox="0 0 500 80" class="wave-svg">
+                        <path class="wave-path" d="M0,40 Q50,40 75,20 T150,40 T225,60 T300,40 T375,20 T450,40 T500,40"
+                            fill="none" stroke="#8b1a1a" stroke-width="2" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scene 6: Eleven Confrontation -->
+        <section class="scene story-scene confrontation-scene" data-scene="6">
+            <div class="full-image-wrapper">
+                <img src="assets/eleven-confrontation.jpg" alt="Eleven vs Demogorgon" class="full-scene-image">
+                <div class="power-effects-overlay">
+                    <div class="power-ring ring-1"></div>
+                    <div class="power-ring ring-2"></div>
+                    <div class="power-ring ring-3"></div>
+                </div>
+                <div class="confrontation-text-overlay">
+                    <p class="eleven-line">The only way to close the gates...</p>
+                    <p class="eleven-line delay">...is to destroy them all.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scene 7: Final Card / Coming Soon -->
+        <section class="scene finale-scene" data-scene="7">
+            <div class="finale-container">
+                <div class="finale-glow"></div>
+                <div class="finale-logo">
+                    <h1 class="finale-title">STRANGER THINGS</h1>
+                    <div class="finale-divider"></div>
+                    <h2 class="finale-subtitle">THE FINAL GATE</h2>
+                </div>
+                <div class="finale-date">
+                    <p class="coming-text">COMING</p>
+                    <p class="year-text">2026</p>
+                </div>
+                <div class="finale-tagline">
+                    <p>"One last chapter. One final fight."</p>
+                </div>
+                <div class="social-icons">
+                    <span class="social-icon">📺</span>
+                    <span class="social-icon">🎬</span>
+                    <span class="social-icon">🔥</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigation Controls -->
+        <div class="nav-controls">
+            <button class="nav-btn prev-btn" id="prev-btn" aria-label="Previous Scene">
+                <span class="arrow-left"></span>
+            </button>
+            <div class="scene-indicators" id="scene-dots"></div>
+            <button class="nav-btn next-btn" id="next-btn" aria-label="Next Scene">
+                <span class="arrow-right"></span>
+            </button>
+        </div>
+
+        <!-- Sound Toggle -->
+        <button class="sound-toggle" id="sound-toggle" aria-label="Toggle Sound">
+            <span class="sound-icon">🔇</span>
+        </button>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress-fill"></div>
+        </div>
+
+        <!-- Auto-play indicator -->
+        <div class="autoplay-indicator" id="autoplay-indicator">
+            <span class="autoplay-text">AUTO</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

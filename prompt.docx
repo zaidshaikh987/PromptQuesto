@@ -1,1 +1,54 @@
-ZXz
+Prompt 1 :
+
+There is a red rectangular card. It is divided into three parts. In each of the three parts, there are two boxes: one contains text and the other contains an image, arranged vertically (up and down).
+
+In the first third, there is a text box at the top that reads:
+“In the depths of the Upside Down, Vecna prepared to open the final gate.”
+Below it, there is a larger image box showing a half mansion under a red sky with blue lightning.
+
+In the second third (the middle section), there is an image at the top and text below it.
+The text reads:
+“First gate was opened in a scream in 1983.”
+Above this text is a larger image consisting of a newspaper collage about a missing boy, including a boyish image of Will from Stranger Things.
+At the top of this second compartment, the Stranger Things logo is written.
+
+In the third part, there are again two boxes. The text box is on top, and the image is below it.
+The text reads:
+“If you hear the voice in static, would you believe it’s a friend or just the wind?”
+The image below is larger than the text box and shows a radio with a red heartbeat line.
+
+Generate an image in a rectangular format (4:5 ratio) based on this description.
+Maintain a Stranger Things theme, with a red background, clearly visible text, blood splatters, and three compartments as described.
+If there is any ambiguity, stick to the Stranger Things visual style and imagery.
+
+OPTIONAL NEGATIVE PROMPT:
+
+cartoon, anime, modern UI, futuristic elements, cyberpunk, blurry text, low resolution, neon colors, childish style
+
+
+
+
+Prompt 2 :
+
+A wide, cinematic Stranger Things–style scene, dark and ominous, set at night.
+
+In the foreground, two teenagers seen from behind, standing on a cracked road, staring upward in fear. Their clothing is 1980s casual, muted blues and reds, slightly dirty and worn.
+
+Behind them on the ground, several motionless bodies lie scattered, partially visible, adding a sense of danger and aftermath.
+
+In the midground, a massive red Upside Down portal, low to the ground, torn open like a burning wound in reality. The portal emits glowing crimson energy, with molten, organic edges, red mist, and sparks.
+
+Emerging from the portal is Vecna, towering and terrifying, skeletal and vine-covered, reaching forward with one hand crackling with blue lightning energy, his body illuminated by red and blue light.
+
+No houses or suburbs are present. Instead, in the background stands the Creel Mansion, partially silhouetted in darkness.
+On the right side of the mansion, two windows glow with warm yellow light, standing out against the darkness.
+
+The sky is deep, dark blue, stormy and heavy, with blue lightning bolts tearing through the clouds, subtle but dramatic.
+
+The overall lighting is low-key and moody, with strong contrast between red portal glow and cold blue lightning, creating a classic Stranger Things color palette.
+
+Ultra-detailed, realistic, cinematic Netflix-quality artwork, 1980s supernatural horror aesthetic, ominous, emotional, and intense.
+
+NEGATIVE PROMPT (IMPORTANT):
+
+modern buildings, suburban houses, daylight, cartoon style, anime, futuristic tech, neon cyberpunk, low detail, blurry characters, soft fantasy style
